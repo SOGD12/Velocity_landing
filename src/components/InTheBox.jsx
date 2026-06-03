@@ -1,7 +1,7 @@
 const items = [
-  '3 sport sunglasses',
-  '1 rigid branded case',
-  '1 premium cleaning cloth',
+  '3 gafas deportivas',
+  '1 estuche rígido de marca',
+  '1 paño de limpieza premium',
 ]
 
 function InTheBox() {
@@ -11,7 +11,7 @@ function InTheBox() {
         <div className="inthebox-card">
           <div className="inthebox-content">
             <h2>
-              In The <span className="accent">Box</span>
+              En el <span className="accent">Estuche</span>
             </h2>
             <ul className="box-list">
               {items.map((it, i) => (
@@ -29,7 +29,7 @@ function InTheBox() {
           <div className="box-image">
             <img
               src="/img/img1.jpeg"
-              alt="Sport sunglasses set with case"
+              alt="Set de gafas deportivas con estuche"
             />
           </div>
         </div>
