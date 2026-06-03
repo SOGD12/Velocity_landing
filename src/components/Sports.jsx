@@ -75,8 +75,7 @@ const slides = [
     desc: 'Reflectancia del agua y brisa marina.',
   },
   {
-    image:
-      'public/img/running.jpg',
+    image: '/img/running.jpg',
     title: 'Running urbano',
     desc: 'Corredores en ciudad con cambios constantes de luz entre edificios.',
   },

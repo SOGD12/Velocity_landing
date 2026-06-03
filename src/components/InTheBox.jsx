@@ -28,7 +28,7 @@ function InTheBox() {
           </div>
           <div className="box-image">
             <img
-              src="public/img/img1.jpeg"
+              src="/img/img1.jpeg"
               alt="Sport sunglasses set with case"
             />
           </div>
