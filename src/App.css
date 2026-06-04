@@ -859,6 +859,15 @@
   line-height: 1.5;
 }
 
+.catalog-price {
+  display: inline-block;
+  margin-top: 12px;
+  font-family: 'Bebas Neue', 'Inter', sans-serif;
+  font-size: 22px;
+  letter-spacing: 1.2px;
+  color: var(--accent, #ffd60a);
+}
+
 /* ===== LIGHTBOX ===== */
 .lightbox {
   position: fixed;
@@ -967,6 +976,15 @@
   color: var(--text-secondary);
   max-width: 320px;
   margin: 0 auto;
+}
+
+.lightbox-price {
+  display: block;
+  margin-top: 14px;
+  font-family: 'Bebas Neue', 'Inter', sans-serif;
+  font-size: 28px;
+  letter-spacing: 1.5px;
+  color: var(--accent, #ffd60a);
 }
 
 /* ===== SPORTS ===== */
@@ -1577,5 +1595,143 @@
   }
   .carousel-heading p {
     font-size: 13px;
+  }
+}
+
+/* ===== REVIEWS ===== */
+.reviews {
+  background: var(--bg-deep);
+}
+
+.reviews-header {
+  text-align: center;
+  max-width: 680px;
+  margin: 0 auto 56px;
+}
+
+.reviews-header .eyebrow {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: var(--accent-yellow);
+  border: 1px solid var(--accent-yellow);
+  padding: 6px 14px;
+  border-radius: 4px;
+  margin-bottom: 18px;
+}
+
+.reviews-header h2 {
+  font-family: 'Bebas Neue', 'Inter', sans-serif;
+  font-size: 48px;
+  letter-spacing: 1.5px;
+  line-height: 1.05;
+  color: var(--text-primary);
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+
+.reviews-header p {
+  font-size: 15px;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.review-card {
+  background: var(--bg-dark, #0a1024);
+  border: 1px solid var(--border, #1a2342);
+  border-radius: 12px;
+  padding: 28px 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.review-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent-yellow);
+}
+
+.review-stars {
+  display: flex;
+  gap: 3px;
+  color: var(--accent-yellow);
+}
+
+.review-text {
+  font-size: 14.5px;
+  line-height: 1.65;
+  color: var(--text-secondary);
+  flex: 1;
+  margin: 0;
+}
+
+.review-author {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border-soft, #1a2342);
+}
+
+.review-avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: var(--accent-yellow);
+  color: #050a18;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Bebas Neue', 'Inter', sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+  flex-shrink: 0;
+}
+
+.review-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.review-name {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.review-role {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+@media (max-width: 900px) {
+  .reviews-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .reviews-header h2 {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 600px) {
+  .reviews-grid {
+    grid-template-columns: 1fr;
+  }
+  .reviews-header h2 {
+    font-size: 32px;
+  }
+  .reviews-header {
+    margin-bottom: 36px;
   }
 }

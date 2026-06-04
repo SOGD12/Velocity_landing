@@ -3,7 +3,8 @@ import { useEffect, useState } from 'react'
 const sections = [
   { id: 'lenses', label: 'Características' },
   { id: 'performance', label: 'Rendimiento' },
-  { id: 'technology', label: 'Tecnología' }
+  { id: 'technology', label: 'Tecnología' },
+  { id: 'catalog', label: 'Catálogo' }
 ]
 
 function Header() {

@@ -46,7 +46,7 @@ const sports = [
 const slides = [
   {
     image:
-      'https://images.unsplash.com/photo-1517649763962-0c623066013b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80',
+      '/img/sports/1.webp',
     title: 'Carretera al amanecer',
     desc: 'Ciclistas en ruta de montaña con luz baja.',
   },
@@ -64,18 +64,18 @@ const slides = [
   // },
   {
     image:
-      'https://images.unsplash.com/photo-1551632811-561732d1e306?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80',
+      '/img/sports/2.webp',
     title: 'Cumbre a 3.000 m',
     desc: 'Alta montaña con UV extremo y nieve.',
   },
   {
     image:
-      'https://images.unsplash.com/photo-1502680390469-be75c86b636f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80',
+      '/img/sports/3.webp',
     title: 'Costa y playa',
     desc: 'Reflectancia del agua y brisa marina.',
   },
   {
-    image: '/img/running.jpg',
+    image: '/img/sports/4.2.png',
     title: 'Running urbano',
     desc: 'Corredores en ciudad con cambios constantes de luz entre edificios.',
   },

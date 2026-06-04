@@ -11,7 +11,7 @@ const models = [
   {
     image: '/img/items/2.jpeg',
     name: 'Fotón',
-    tag: 'Fotocromática',
+    tag: 'Ciclismo',
     desc: 'Se adapta a la luz en menos de 30 segundos.',
     color: '#8b5cf6',
   },
@@ -30,6 +30,8 @@ const models = [
     color: '#f59e0b',
   },
 ]
+
+const COMBO_PRICE = '$156.900'
 
 function Lightbox({ model, onClose }) {
   useEffect(() => {
@@ -60,6 +62,7 @@ function Lightbox({ model, onClose }) {
           </span>
           <h3>{model.name}</h3>
           <p>{model.desc}</p>
+          <span className="lightbox-price">{COMBO_PRICE}</span>
         </div>
       </div>
     </div>
@@ -75,12 +78,12 @@ function Catalog() {
         <div className="catalog-header">
           <span className="eyebrow">Colección Combo Prima</span>
           <h2>
-            Los <span className="accent">Modelos</span>
+            Combo <span className="accent">Sports</span>
           </h2>
           <p>
             Cada par del combo ha sido diseñado para un escenario
             específico. Elige tu favorito o llévalos todos con el
-            descuento especial del Combo Prima.
+            descuento especial del Combo Prima. Todas vienen con Fotocromático, protección UV400 y un diseño que combina estilo 
           </p>
         </div>
 
@@ -107,6 +110,7 @@ function Catalog() {
               <div className="catalog-info">
                 <h3>{m.name}</h3>
                 <p>{m.desc}</p>
+                <span className="catalog-price">{COMBO_PRICE}</span>
               </div>
             </article>
           ))}

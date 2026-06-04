@@ -1,6 +1,6 @@
 const items = [
   '3 gafas deportivas',
-  '1 estuche rígido de marca',
+  '1 estuche rígido',
   '1 paño de limpieza premium',
 ]
 
@@ -11,7 +11,7 @@ function InTheBox() {
         <div className="inthebox-card">
           <div className="inthebox-content">
             <h2>
-              En el <span className="accent">Estuche</span>
+              Que <span className="accent">Incluye</span>
             </h2>
             <ul className="box-list">
               {items.map((it, i) => (

@@ -6,6 +6,7 @@ import Specs from './components/Specs'
 import LightAdaptation from './components/LightAdaptation'
 import InTheBox from './components/InTheBox'
 import Catalog from './components/Catalog'
+import Reviews from './components/Reviews'
 import Sports from './components/Sports'
 import Pricing from './components/Pricing'
 import Footer from './components/Footer'
@@ -20,6 +21,7 @@ function App() {
       <LightAdaptation />
       <InTheBox />
       <Catalog />
+      <Reviews />
       <Sports />
       <Pricing />
       <Footer />
