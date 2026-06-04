@@ -38,7 +38,7 @@ const reviews = [
     name: 'Tomás V.',
     role: 'Triatlón',
     rating: 5,
-    text: 'Excelente relación calidad-precio. He pagado el doble por marcas conocidas y no заметила la diferencia. Repetiría sin pensarlo.',
+    text: 'Excelente relación calidad-precio. He pagado el doble por marcas conocidas y no observó la diferencia. Repetiría sin pensarlo.',
     date: 'Hace 3 semanas',
   },
 ]
