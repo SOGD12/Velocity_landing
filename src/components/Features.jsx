@@ -41,7 +41,7 @@ function Features() {
             Estilos para <span className="accent">cada momento</span>
           </h2>
           <p>
-            Cada par del Combo Prima está diseñado para un escenario
+            Cada Combo está diseñado para un escenario
             específico: sol de mediodía, cambios de luz y entrenamientos
             de alta intensidad. Cambia de modelo según lo que exija tu
             deporte.

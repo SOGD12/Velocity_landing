@@ -1,5 +1,5 @@
 const items = [
-  '3 gafas deportivas',
+  '3 gafas deportivas (1 fotocromática)',
   '1 estuche rígido',
   '1 paño de limpieza premium',
 ]

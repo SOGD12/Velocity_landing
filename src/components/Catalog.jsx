@@ -76,14 +76,14 @@ function Catalog() {
     <section className="section catalog" id="catalog">
       <div className="container">
         <div className="catalog-header">
-          <span className="eyebrow">Colección Combo Prima</span>
+          <span className="eyebrow">Colección Combo Sport </span>
           <h2>
             Combo <span className="accent">Sports</span>
           </h2>
           <p>
-            Cada par del combo ha sido diseñado para un escenario
+            Cada combo ha sido diseñado para un escenario
             específico. Elige tu favorito o llévalos todos con el
-            descuento especial del Combo Prima. Todas vienen con Fotocromático, protección UV400 y un diseño que combina estilo 
+            descuento especial del Combo. Todas vienen con Fotocromático, protección UV400 y un diseño que combina estilo 
           </p>
         </div>
 

@@ -10,8 +10,11 @@ import Reviews from './components/Reviews'
 import Sports from './components/Sports'
 import Pricing from './components/Pricing'
 import Footer from './components/Footer'
+import useScrollReveal from './hooks/useScrollReveal'
 
 function App() {
+  useScrollReveal()
+
   return (
     <div className="app">
       <Header />

@@ -1,0 +1,49 @@
+/* =============================================
+   MOBILE SCROLL FADE-IN
+   Active only on devices <= 768px
+   Uses IntersectionObserver (via useScrollReveal hook)
+   ============================================= */
+
+@media (max-width: 768px) {
+  /* Smooth scroll for in-page anchors */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Initial hidden state — only when JS is loaded
+     (the .js class is set by the inline script in index.html) */
+  .js .reveal {
+    opacity: 0;
+    transform: translateY(32px);
+    transition:
+      opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+      transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+    will-change: opacity, transform;
+  }
+
+  /* Visible state — added by the observer */
+  .js .reveal.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Stagger list items a bit */
+  .js .box-list li.reveal.is-visible {
+    transition-delay: 0.05s;
+  }
+  .js .box-list li.reveal:nth-child(2).is-visible {
+    transition-delay: 0.12s;
+  }
+  .js .box-list li.reveal:nth-child(3).is-visible {
+    transition-delay: 0.19s;
+  }
+
+  /* Accessibility: respect users who prefer less motion */
+  @media (prefers-reduced-motion: reduce) {
+    .js .reveal {
+      opacity: 1 !important;
+      transform: none !important;
+      transition: none !important;
+    }
+  }
+}

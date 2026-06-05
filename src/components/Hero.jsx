@@ -4,9 +4,9 @@ function Hero() {
   return (
     <section className="hero" id="top">
       <div className="hero-content">
-        <span className="hero-eyebrow">Novedad · Combo Prima</span>
+        <span className="hero-eyebrow">Novedad · Combo</span>
         <h1>
-          <span className="accent">Combo Prima</span>
+          <span className="accent">Combo Sport</span>
           <span className="white">Tu visión para el deporte</span>
         </h1>
         <p>

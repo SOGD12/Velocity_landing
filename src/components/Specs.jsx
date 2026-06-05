@@ -45,10 +45,10 @@ function Specs() {
         <div className="specs-header">
           <span className="eyebrow">Ingeniería que se siente</span>
           <h2>
-            Calidad <span className="accent">sin compromisos</span>
+            Calidad <span className="accent">en todo momento</span>
           </h2>
           <p>
-            Cada componente del Combo Prima fue seleccionado para
+            Cada componente del Combo Sport fue seleccionado para
             soportar el ritmo de tu deporte, desde la protección de las
             lentes hasta los acabados de la montura.
           </p>

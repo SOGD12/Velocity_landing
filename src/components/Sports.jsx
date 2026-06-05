@@ -64,15 +64,15 @@ const slides = [
   // },
   {
     image:
-      '/img/sports/2.webp',
+      '/img/sports/2.1.jpg',
     title: 'Cumbre a 3.000 m',
-    desc: 'Alta montaña con UV extremo y nieve.',
+    desc: 'Alta montaña con UV extremo',
   },
   {
     image:
-      '/img/sports/3.webp',
-    title: 'Costa y playa',
-    desc: 'Reflectancia del agua y brisa marina.',
+      '/img/sports/3.1.png',
+    title: 'Patinaje',
+    desc: 'Desarrolla tu velocidad, equilibrio y rendimiento.',
   },
   {
     image: '/img/sports/4.2.png',
@@ -155,7 +155,7 @@ function Sports() {
             Llévalas a <span className="accent">donde sea</span>
           </h2>
           <p>
-            Las VELOCITY Combo Prima están diseñadas para acompañarte en cada
+            El Combo Sport están diseñadas para acompañarte en cada
             disciplina. Desde la ruta más exigente en carretera hasta la
             cumbre más alta, su lente fotocromática, el tratamiento
             anti-viento y el agarre ergonómico se adaptan al ritmo de tu
@@ -176,9 +176,8 @@ function Sports() {
           <div className="carousel-heading">
             <h3>Escenarios reales, rendimiento real</h3>
             <p>
-              Conoce los entornos donde el combo prima marca la diferencia.
-              Desliza y descubre por qué atletas de todo el mundo confían en
-              VELOCITY.
+              Descubre los entornos donde el Combo Sport marca la diferencia.
+              Desliza y comprueba por qué atletas de todo el mundo confían en él.
             </p>
           </div>
           <Carousel />
