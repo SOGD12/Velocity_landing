@@ -20,8 +20,9 @@ function LightAdaptation() {
           </div>
           <div className="adaptation-image">
             <img
-              src="/img/screen3.png"
+              src="/img/screen3.webp"
               alt="Adaptación de lente fotocromática de transparente a oscura"
+              loading="lazy"
             />
           </div>
         </div>

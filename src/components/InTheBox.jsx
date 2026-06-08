@@ -30,6 +30,7 @@ function InTheBox() {
             <img
               src="/img/img1.jpeg"
               alt="Set de gafas deportivas con estuche"
+              loading="lazy"
             />
           </div>
         </div>

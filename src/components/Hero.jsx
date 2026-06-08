@@ -9,7 +9,8 @@ function Hero() {
         muted
         loop
         playsInline
-        preload="auto"
+        preload="none"
+        poster="/img/screen.png"
       >
         <source
           src="https://res.cloudinary.com/dgfanrjou/video/upload/v1780898536/0607_1_en8bqh.mp4"
