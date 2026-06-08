@@ -64,18 +64,18 @@ const slides = [
   // },
   {
     image:
-      '/img/sports/2.1.jpg',
+      '/img/sports/2.1.webp',
     title: 'Cumbre a 3.000 m',
     desc: 'Alta montaña con UV extremo',
   },
   {
     image:
-      '/img/sports/3.1.png',
+      '/img/sports/3.1.webp',
     title: 'Patinaje',
     desc: 'Desarrolla tu velocidad, equilibrio y rendimiento.',
   },
   {
-    image: '/img/sports/4.2.png',
+    image: '/img/sports/4.2.webp',
     title: 'Running urbano',
     desc: 'Corredores en ciudad con cambios constantes de luz entre edificios.',
   },

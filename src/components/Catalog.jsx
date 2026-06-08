@@ -2,28 +2,28 @@ import { useEffect, useState } from 'react'
 
 const models = [
   {
-    image: '/img/items/1.jpeg',
+    image: '/img/items/1.webp',
     name: 'Solar',
     tag: 'Sol Intenso',
     desc: 'Lente espejo azul con protección UV400 total.',
     color: '#3b82f6',
   },
   {
-    image: '/img/items/2.jpeg',
+    image: '/img/items/2.webp',
     name: 'Fotón',
     tag: 'Ciclismo',
     desc: 'Se adapta a la luz en menos de 30 segundos.',
     color: '#8b5cf6',
   },
   {
-    image: '/img/items/3.jpeg',
+    image: '/img/items/3.webp',
     name: 'Sprint',
     tag: 'Espejo Multicolor',
     desc: 'Acabado iridiscente para tus entrenamientos.',
     color: '#ec4899',
   },
   {
-    image: '/img/items/4.jpeg',
+    image: '/img/items/4.webp',
     name: 'Cumbre',
     tag: 'Alta Montaña',
     desc: 'Edición especial con agarre ergonómico reforzado.',
