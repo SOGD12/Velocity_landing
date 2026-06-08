@@ -261,8 +261,10 @@
   .hero-video {
         min-width: 0;
         min-height: 0;
-        width: 154%;
-        height: 91vh;
+        /* width: 154%;
+        height: 91vh; */
+        width: 170%;
+        height: 100vh;
         object-fit: contain;
         top: 50%;
         left: 50%;
