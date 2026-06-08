@@ -51,8 +51,8 @@ function Header() {
   return (
     <header className={`header ${scrolled ? 'scrolled' : ''} ${menuOpen ? 'menu-open' : ''}`}>
       <a href="#top" className="logo" onClick={(e) => handleClick(e, 'top')}>
-        <span className="logo-icon"></span>
-        VELOCITY
+        <img src="/12.svg" alt="" className="logo-icon" />
+        Importadores Colombia
       </a>
       <nav className="nav">
         {sections.map(({ id, label }) => (

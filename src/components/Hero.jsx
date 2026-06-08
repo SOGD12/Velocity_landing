@@ -3,6 +3,25 @@ import { whatsappLink } from '../utils/whatsapp'
 function Hero() {
   return (
     <section className="hero" id="top">
+      <video
+        className="hero-video"
+        autoPlay
+        muted
+        loop
+        playsInline
+        preload="auto"
+      >
+        <source
+          src="https://res.cloudinary.com/dgfanrjou/video/upload/v1780898536/0607_1_en8bqh.mp4"
+          type="video/mp4"
+          media="(max-width: 768px)"
+        />
+        <source
+          src="https://res.cloudinary.com/dgfanrjou/video/upload/v1780899247/202606080110_vmwy5m.mp4"
+          type="video/mp4"
+          media="(min-width: 769px)"
+        />
+      </video>
       <div className="hero-content">
         <span className="hero-eyebrow">Novedad · Combo</span>
         <h1>
